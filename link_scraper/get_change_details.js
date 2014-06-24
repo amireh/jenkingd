@@ -22,12 +22,14 @@ module.exports = function getChangeDetails(patchId, xsrfKey) {
     success: function(resp, a, xhr) {
       window.callPhantom({
         success: true,
+        patchId: patchId,
         status: xhr.status,
         body: resp
       });
     },
     error: function(error, a, b) {
       window.callPhantom({
+        patchId: patchId,
         failed: true,
         status: error.status,
         body: error.responseText

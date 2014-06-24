@@ -8,9 +8,12 @@ var sniffXSRFToken = require('./link_scraper/sniff_xsrf_token');
 var getChangeDetails = require('./link_scraper/get_change_details');
 
 // todo: argify
-var PATCH_ID = 36559;
-var REQUEST_ID = 0;
 var TIMEOUT = 20000;
+var PATCHES = [ 36559, 36070 ];
+
+var output = [];
+var requestCount = PATCHES.length;
+var errorCount = 0;
 
 page.customHeaders = {
   'Authorization': 'Basic YWhtYWQ6ZW5zdHJ1Y3R1cmVUdW9uI2xhODk='
@@ -22,18 +25,30 @@ page.customHeaders = {
 page.settings.loadImages = false;
 
 // page.onResourceRequested = function(requestData, networkRequest) {
-//   console.log('Request (#' + requestData.id + '): ' + JSON.stringify(requestData));
+//   console.log('Request to:', requestData.url);
+
+//   if (requestData.url.match(/capabilities/)) {
+//     console.log('Request (#' + requestData.id + '): ' + JSON.stringify(requestData));
+//     console.log('Request headers:', JSON.stringify(requestData.headers));
+//   }
 // };
 
 page.onCallback = function(resp) {
   if (resp.success) {
-    var links = extractLinks(resp.body);
-    console.log('Jenkins links:', JSON.stringify(links));
-    phantom.exit(0);
-
+    output.push({
+      patch: resp.patchId,
+      links: extractLinks(resp.body)
+    });
+    // phantom.exit(0);
   } else {
     console.log('XHR failure:', JSON.stringify(resp));
-    phantom.exit(1);
+    // phantom.exit(1);
+    errorCount += 1;
+  }
+
+  if (--requestCount === 0) {
+    console.log(JSON.stringify(output, null, 2));
+    phantom.exit(errorCount === 0 ? 0 : 1);
   }
 };
 
@@ -49,9 +64,9 @@ page.onResourceReceived = function(response) {
   }
 };
 
-page.open('https://gerrit.instructure.com/#/c/36559/', function(status) {
-  var requestDispatched = false;
+page.open('https://gerrit.instructure.com/', function(status) {
   var ready;
+  var dispatcher;
 
   console.log('Page opened successfully?', status === 'success');
 
@@ -69,16 +84,19 @@ page.open('https://gerrit.instructure.com/#/c/36559/', function(status) {
     });
   }, 250);
 
-  setInterval(function() {
-    if (!xsrfKey || !ready || requestDispatched) {
+  dispatcher = setInterval(function() {
+    if (!xsrfKey || !ready) {
       return;
     }
 
     console.log('Getting patchset information.');
 
-    requestDispatched = true;
+    PATCHES.forEach(function(patchId) {
+      page.evaluate(getChangeDetails, patchId, xsrfKey);
+    });
 
-    page.evaluate(getChangeDetails, PATCH_ID, xsrfKey);
+    clearInterval(dispatcher);
+    dispatcher = null;
   }, 1000);
   // page.close();
 });
