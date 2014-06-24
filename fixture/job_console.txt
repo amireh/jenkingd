@@ -1,0 +1,793 @@
+ializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: ActionDispatch::ShowExceptions.rescue_responses is deprecated. Please configure your exceptions using a railtie or in your application config instead. (called from <class:ApplicationController> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/controllers/application_controller.rb:976)
+DEPRECATION WARNING: Calling set_table_name is deprecated. Please use `self.table_name = 'the_name'` instead. (called from <class:PollChoice> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/models/polling/poll_choice.rb:21)
+DEPRECATION WARNING: ** Notice: include was renamed to embed_in_root. **
+. (called from initialize at /home/hudson/.rvm/gems/ext-ruby-1.9.3-p484/bundler/gems/active_model_serializers-61882e1e4127/lib/active_model/serializer/associations.rb:9)
+24292: 23:16:47.867078253 INFO: this is the result
+24293: 23:16:47.868627900 Code coverage not enabled
+24294: 23:16:47.869869717 Bullet not enabled
+24295: 23:16:47.871160324 Run options: include {:full_description=>/should not create if the media id doesn't exist in kaltura/}
+24296: 23:16:47.873101087 
+24297: 23:16:47.874364980 MediaObject
+24298: 23:16:47.875663853   .ensure_media_object
+24299: 23:16:47.877401947     should not create if the media id doesn't exist in kaltura
+24300: 23:16:47.879186884 
+24301: 23:16:47.881682348 Finished in 0.08808 seconds
+24302: 23:16:47.884763760 1 example, 0 failures
+24303: 23:16:47.888115300 INFO: determining if the spec passed or failed
+24304: 23:16:47.891033849 INFO: examples run = 1 examples failed = 0
+24305: 23:16:47.892941178 INFO: the example passed and is being marked as a success
+24306: 23:16:47.894658437 INFO: spec finished and has updated rerun state
+24307: 23:16:47.896657883 INFO: starting next spec
+24308: 23:16:47.899725184 INFO: ./spec/models/media_object_spec.rb -e should create the media object
+24309: 23:16:47.903082374  will be ran and marked as a success if it passes
+DEPRECATION: Spec is deprecated. Use RSpec instead. Called from /mnt/hudson/workspace/canvas-plugins-core-rails3/spec/spec_helper.rb:29:in `<top (required)>'.
+/home/hudson/.rvm/gems/ext-ruby-1.9.3-p484@global/gems/polyglot-0.3.3/lib/polyglot.rb:63:in `require': iconv will be deprecated in the future, use String#encode instead.
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: ActionDispatch::ShowExceptions.rescue_responses is deprecated. Please configure your exceptions using a railtie or in your application config instead. (called from <class:ApplicationController> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/controllers/application_controller.rb:976)
+DEPRECATION WARNING: Calling set_table_name is deprecated. Please use `self.table_name = 'the_name'` instead. (called from <class:PollChoice> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/models/polling/poll_choice.rb:21)
+DEPRECATION WARNING: ** Notice: include was renamed to embed_in_root. **
+. (called from initialize at /home/hudson/.rvm/gems/ext-ruby-1.9.3-p484/bundler/gems/active_model_serializers-61882e1e4127/lib/active_model/serializer/associations.rb:9)
+24310: 23:17:05.885260973 INFO: this is the result
+24311: 23:17:05.888239106 Code coverage not enabled
+24312: 23:17:05.890321480 Bullet not enabled
+24313: 23:17:05.892768493 Run options: include {:full_description=>/should create the media object/}
+24314: 23:17:05.894081636 
+24315: 23:17:05.895415657 MediaObject
+24316: 23:17:05.897201001   .ensure_media_object
+24317: 23:17:05.900580036     should create the media object
+24318: 23:17:05.902688842 
+24319: 23:17:05.904723232 Finished in 0.22337 seconds
+24320: 23:17:05.907071494 1 example, 0 failures
+24321: 23:17:05.908355735 INFO: determining if the spec passed or failed
+24322: 23:17:05.909603320 INFO: examples run = 1 examples failed = 0
+24323: 23:17:05.911392478 INFO: the example passed and is being marked as a success
+24324: 23:17:05.913759953 INFO: spec finished and has updated rerun state
+24325: 23:17:05.917018565 INFO: starting next spec
+24326: 23:17:05.919617074 INFO: ./spec/models/page_view_spec.rb -e should store and load from cassandra when the birth shard is not the default shard
+24327: 23:17:05.922382916  will be ran and marked as a success if it passes
+DEPRECATION: Spec is deprecated. Use RSpec instead. Called from /mnt/hudson/workspace/canvas-plugins-core-rails3/spec/spec_helper.rb:29:in `<top (required)>'.
+/home/hudson/.rvm/gems/ext-ruby-1.9.3-p484@global/gems/polyglot-0.3.3/lib/polyglot.rb:63:in `require': iconv will be deprecated in the future, use String#encode instead.
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: ActionDispatch::ShowExceptions.rescue_responses is deprecated. Please configure your exceptions using a railtie or in your application config instead. (called from <class:ApplicationController> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/controllers/application_controller.rb:976)
+DEPRECATION WARNING: Calling set_table_name is deprecated. Please use `self.table_name = 'the_name'` instead. (called from <class:PollChoice> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/models/polling/poll_choice.rb:21)
+DEPRECATION WARNING: ** Notice: include was renamed to embed_in_root. **
+. (called from initialize at /home/hudson/.rvm/gems/ext-ruby-1.9.3-p484/bundler/gems/active_model_serializers-61882e1e4127/lib/active_model/serializer/associations.rb:9)
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+24328: 23:17:50.157456599 INFO: this is the result
+24329: 23:17:50.159854286 Code coverage not enabled
+24330: 23:17:50.162740360 Bullet not enabled
+24331: 23:17:50.164804394 Run options: include {:full_description=>/should store and load from cassandra when the birth shard is not the default shard/}
+24332: 23:17:50.166147399 
+24333: 23:17:50.167429868 PageView
+24334: 23:17:50.169667148   cassandra page views
+24335: 23:17:50.171623930     sharding
+24336: 23:17:50.172987450 Setting up sharding for all specs...
+24337: 23:17:50.175480149 Done!
+24338: 23:17:50.178649910       should store and load from cassandra when the birth shard is not the default shard
+24339: 23:17:50.181139257 
+24340: 23:17:50.182903000 Finished in 24.33 seconds
+24341: 23:17:50.184209856 1 example, 0 failures
+24342: 23:17:50.185470778 Tearing down sharding for all specs
+24343: 23:17:50.186677083 INFO: determining if the spec passed or failed
+24344: 23:17:50.187923766 INFO: examples run = 1 examples failed = 0
+24345: 23:17:50.189122658 INFO: the example passed and is being marked as a success
+24346: 23:17:50.190368037 INFO: spec finished and has updated rerun state
+24347: 23:17:50.192674357 INFO: starting next spec
+24348: 23:17:50.195998441 INFO: ./spec/models/content_tag_spec.rb -e should not rename attachment if linked tag is renamed
+24349: 23:17:50.199168420  will be ran and marked as a success if it passes
+DEPRECATION: Spec is deprecated. Use RSpec instead. Called from /mnt/hudson/workspace/canvas-plugins-core-rails3/spec/spec_helper.rb:29:in `<top (required)>'.
+/home/hudson/.rvm/gems/ext-ruby-1.9.3-p484@global/gems/polyglot-0.3.3/lib/polyglot.rb:63:in `require': iconv will be deprecated in the future, use String#encode instead.
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: ActionDispatch::ShowExceptions.rescue_responses is deprecated. Please configure your exceptions using a railtie or in your application config instead. (called from <class:ApplicationController> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/controllers/application_controller.rb:976)
+DEPRECATION WARNING: Calling set_table_name is deprecated. Please use `self.table_name = 'the_name'` instead. (called from <class:PollChoice> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/models/polling/poll_choice.rb:21)
+DEPRECATION WARNING: ** Notice: include was renamed to embed_in_root. **
+. (called from initialize at /home/hudson/.rvm/gems/ext-ruby-1.9.3-p484/bundler/gems/active_model_serializers-61882e1e4127/lib/active_model/serializer/associations.rb:9)
+24350: 23:18:08.418909397 INFO: this is the result
+24351: 23:18:08.420495396 Code coverage not enabled
+24352: 23:18:08.421733305 Bullet not enabled
+24353: 23:18:08.423055592 Run options: include {:full_description=>/should not rename attachment if linked tag is renamed/}
+24354: 23:18:08.424356517 
+24355: 23:18:08.425590799 ContentTag
+24356: 23:18:08.426870346   should not rename attachment if linked tag is renamed
+24357: 23:18:08.428225551 
+24358: 23:18:08.429481859 Finished in 0.65668 seconds
+24359: 23:18:08.430705562 1 example, 0 failures
+24360: 23:18:08.432024418 INFO: determining if the spec passed or failed
+24361: 23:18:08.433276149 INFO: examples run = 1 examples failed = 0
+24362: 23:18:08.434536560 INFO: the example passed and is being marked as a success
+24363: 23:18:08.436877121 INFO: spec finished and has updated rerun state
+24364: 23:18:08.440280764 INFO: starting next spec
+24365: 23:18:08.443394226 INFO: ./vendor/plugins/migration_tool/spec_canvas/lib/blackboard/bb9_converter_spec.rb -e should import files correctly
+24366: 23:18:08.446711562  will be ran and marked as a success if it passes
+DEPRECATION: Spec is deprecated. Use RSpec instead. Called from /mnt/hudson/workspace/canvas-plugins-core-rails3/spec/spec_helper.rb:29:in `<top (required)>'.
+/home/hudson/.rvm/gems/ext-ruby-1.9.3-p484@global/gems/polyglot-0.3.3/lib/polyglot.rb:63:in `require': iconv will be deprecated in the future, use String#encode instead.
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: ActionDispatch::ShowExceptions.rescue_responses is deprecated. Please configure your exceptions using a railtie or in your application config instead. (called from <class:ApplicationController> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/controllers/application_controller.rb:976)
+DEPRECATION WARNING: Calling set_table_name is deprecated. Please use `self.table_name = 'the_name'` instead. (called from <class:PollChoice> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/models/polling/poll_choice.rb:21)
+DEPRECATION WARNING: ** Notice: include was renamed to embed_in_root. **
+. (called from initialize at /home/hudson/.rvm/gems/ext-ruby-1.9.3-p484/bundler/gems/active_model_serializers-61882e1e4127/lib/active_model/serializer/associations.rb:9)
+24367: 23:18:44.574690900 INFO: this is the result
+24368: 23:18:44.577083337 Code coverage not enabled
+24369: 23:18:44.578459279 Bullet not enabled
+24370: 23:18:44.579765027 Run options: include {:full_description=>/should import files correctly/}
+24371: 23:18:44.581059158 
+24372: 23:18:44.582338811 Converting a BB9 export file
+24373: 23:18:44.583574786   should import files correctly
+24374: 23:18:44.585381624 
+24375: 23:18:44.587952232 Finished in 18.42 seconds
+24376: 23:18:44.617997111 1 example, 0 failures
+24377: 23:18:44.619323007 INFO: determining if the spec passed or failed
+24378: 23:18:44.620637917 INFO: examples run = 1 examples failed = 0
+24379: 23:18:44.622036077 INFO: the example passed and is being marked as a success
+24380: 23:18:44.623284791 INFO: spec finished and has updated rerun state
+24381: 23:18:44.625510637 INFO: starting next spec
+24382: 23:18:44.627544589 INFO: ./vendor/plugins/multiple_root_accounts/spec_canvas/lib/host_url_with_account_domains_spec.rb -e should invalidate all the caches when an account domain changes
+24383: 23:18:44.629358158  will be ran and marked as a success if it passes
+DEPRECATION: Spec is deprecated. Use RSpec instead. Called from /mnt/hudson/workspace/canvas-plugins-core-rails3/spec/spec_helper.rb:29:in `<top (required)>'.
+/home/hudson/.rvm/gems/ext-ruby-1.9.3-p484@global/gems/polyglot-0.3.3/lib/polyglot.rb:63:in `require': iconv will be deprecated in the future, use String#encode instead.
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: ActionDispatch::ShowExceptions.rescue_responses is deprecated. Please configure your exceptions using a railtie or in your application config instead. (called from <class:ApplicationController> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/controllers/application_controller.rb:976)
+DEPRECATION WARNING: Calling set_table_name is deprecated. Please use `self.table_name = 'the_name'` instead. (called from <class:PollChoice> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/models/polling/poll_choice.rb:21)
+DEPRECATION WARNING: ** Notice: include was renamed to embed_in_root. **
+. (called from initialize at /home/hudson/.rvm/gems/ext-ruby-1.9.3-p484/bundler/gems/active_model_serializers-61882e1e4127/lib/active_model/serializer/associations.rb:9)
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+24384: 23:19:27.541888379 INFO: this is the result
+24385: 23:19:27.544308420 Code coverage not enabled
+24386: 23:19:27.546839388 Bullet not enabled
+24387: 23:19:27.549253849 Run options: include {:full_description=>/should invalidate all the caches when an account domain changes/}
+24388: 23:19:27.550590259 
+24389: 23:19:27.551923572 HostUrl
+24390: 23:19:27.554087801   file_host
+24391: 23:19:27.556093393     sharding
+24392: 23:19:27.559415697 Setting up sharding for all specs...
+24393: 23:19:27.562572788 Done!
+24394: 23:19:27.565760964       should invalidate all the caches when an account domain changes
+24395: 23:19:27.568866794 
+24396: 23:19:27.571768216 Finished in 24.36 seconds
+24397: 23:19:27.574921732 1 example, 0 failures
+24398: 23:19:27.578297561 Tearing down sharding for all specs
+24399: 23:19:27.581662452 INFO: determining if the spec passed or failed
+24400: 23:19:27.585074730 INFO: examples run = 1 examples failed = 0
+24401: 23:19:27.588297581 INFO: the example passed and is being marked as a success
+24402: 23:19:27.591466404 INFO: spec finished and has updated rerun state
+24403: 23:19:27.594518683 INFO: starting next spec
+24404: 23:19:27.597939711 INFO: ./vendor/plugins/multiple_root_accounts/spec_canvas/lib/load_account_with_domain_spec.rb -e should redirect to a matching account resulting from a shard split
+24405: 23:19:27.601237269  will be ran and marked as a success if it passes
+DEPRECATION: Spec is deprecated. Use RSpec instead. Called from /mnt/hudson/workspace/canvas-plugins-core-rails3/spec/spec_helper.rb:29:in `<top (required)>'.
+/home/hudson/.rvm/gems/ext-ruby-1.9.3-p484@global/gems/polyglot-0.3.3/lib/polyglot.rb:63:in `require': iconv will be deprecated in the future, use String#encode instead.
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: ActionDispatch::ShowExceptions.rescue_responses is deprecated. Please configure your exceptions using a railtie or in your application config instead. (called from <class:ApplicationController> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/controllers/application_controller.rb:976)
+DEPRECATION WARNING: Calling set_table_name is deprecated. Please use `self.table_name = 'the_name'` instead. (called from <class:PollChoice> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/models/polling/poll_choice.rb:21)
+DEPRECATION WARNING: ** Notice: include was renamed to embed_in_root. **
+. (called from initialize at /home/hudson/.rvm/gems/ext-ruby-1.9.3-p484/bundler/gems/active_model_serializers-61882e1e4127/lib/active_model/serializer/associations.rb:9)
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+DEPRECATION WARNING: You're trying to create an attribute `from_split'. Writing arbitrary attributes on a model is deprecated. Please just use `attr_writer` etc. (called from write_attribute at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/initializers/active_record.rb:14)
+24406: 23:20:09.267469973 INFO: this is the result
+24407: 23:20:09.270892418 Code coverage not enabled
+24408: 23:20:09.273070000 Bullet not enabled
+24409: 23:20:09.274900845 Run options: include {:full_description=>/should redirect to a matching account resulting from a shard split/}
+24410: 23:20:09.276286875 
+24411: 23:20:09.278486241 LoadAccount
+24412: 23:20:09.281289019   sharding
+24413: 23:20:09.283271633 Setting up sharding for all specs...
+24414: 23:20:09.284656322 Done!
+24415: 23:20:09.287253279     should redirect to a matching account resulting from a shard split
+24416: 23:20:09.290403574 
+24417: 23:20:09.293692957 Finished in 23.22 seconds
+24418: 23:20:09.296906370 1 example, 0 failures
+24419: 23:20:09.300154222 Tearing down sharding for all specs
+24420: 23:20:09.303332332 INFO: determining if the spec passed or failed
+24421: 23:20:09.306497500 INFO: examples run = 1 examples failed = 0
+24422: 23:20:09.309570182 INFO: the example passed and is being marked as a success
+24423: 23:20:09.312885130 INFO: spec finished and has updated rerun state
+24424: 23:20:09.316156954 INFO: starting next spec
+24425: 23:20:09.318796186 INFO: ./vendor/plugins/multiple_root_accounts/spec_canvas/lib/load_account_with_domain_spec.rb -e should not redirect for a cross-shard files request semi-matching an account resulting from a shard split
+24426: 23:20:09.321897479  will be ran and marked as a success if it passes
+DEPRECATION: Spec is deprecated. Use RSpec instead. Called from /mnt/hudson/workspace/canvas-plugins-core-rails3/spec/spec_helper.rb:29:in `<top (required)>'.
+/home/hudson/.rvm/gems/ext-ruby-1.9.3-p484@global/gems/polyglot-0.3.3/lib/polyglot.rb:63:in `require': iconv will be deprecated in the future, use String#encode instead.
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: ActionDispatch::ShowExceptions.rescue_responses is deprecated. Please configure your exceptions using a railtie or in your application config instead. (called from <class:ApplicationController> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/controllers/application_controller.rb:976)
+DEPRECATION WARNING: Calling set_table_name is deprecated. Please use `self.table_name = 'the_name'` instead. (called from <class:PollChoice> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/models/polling/poll_choice.rb:21)
+DEPRECATION WARNING: ** Notice: include was renamed to embed_in_root. **
+. (called from initialize at /home/hudson/.rvm/gems/ext-ruby-1.9.3-p484/bundler/gems/active_model_serializers-61882e1e4127/lib/active_model/serializer/associations.rb:9)
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+24427: 23:20:50.743475672 INFO: this is the result
+24428: 23:20:50.745516159 Code coverage not enabled
+24429: 23:20:50.746866740 Bullet not enabled
+24430: 23:20:50.748313059 Run options: include {:full_description=>/should not redirect for a cross-shard files request semi-matching an account resulting from a shard split/}
+24431: 23:20:50.749603711 
+24432: 23:20:50.750874456 LoadAccount
+24433: 23:20:50.752232721   sharding
+24434: 23:20:50.753437941 Setting up sharding for all specs...
+24435: 23:20:50.754660611 Done!
+24436: 23:20:50.756068051     should not redirect for a cross-shard files request semi-matching an account resulting from a shard split
+24437: 23:20:50.759062010 
+24438: 23:20:50.762434706 Finished in 22.81 seconds
+24439: 23:20:50.765904195 1 example, 0 failures
+24440: 23:20:50.769292636 Tearing down sharding for all specs
+24441: 23:20:50.772506957 INFO: determining if the spec passed or failed
+24442: 23:20:50.775648403 INFO: examples run = 1 examples failed = 0
+24443: 23:20:50.778831716 INFO: the example passed and is being marked as a success
+24444: 23:20:50.781932688 INFO: spec finished and has updated rerun state
+24445: 23:20:50.785144950 INFO: starting next spec
+24446: 23:20:50.788323623 INFO: ./vendor/plugins/multiple_root_accounts/spec_canvas/models/account_spec.rb -e should be cache coherent
+24447: 23:20:50.791486245  will be ran and marked as a success if it passes
+DEPRECATION: Spec is deprecated. Use RSpec instead. Called from /mnt/hudson/workspace/canvas-plugins-core-rails3/spec/spec_helper.rb:29:in `<top (required)>'.
+/home/hudson/.rvm/gems/ext-ruby-1.9.3-p484@global/gems/polyglot-0.3.3/lib/polyglot.rb:63:in `require': iconv will be deprecated in the future, use String#encode instead.
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /mnt/hudson/workspace/canvas-plugins-core-rails3/config/environment.rb:46)
+DEPRECATION WARNING: ActionDispatch::ShowExceptions.rescue_responses is deprecated. Please configure your exceptions using a railtie or in your application config instead. (called from <class:ApplicationController> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/controllers/application_controller.rb:976)
+DEPRECATION WARNING: Calling set_table_name is deprecated. Please use `self.table_name = 'the_name'` instead. (called from <class:PollChoice> at /mnt/hudson/workspace/canvas-plugins-core-rails3/app/models/polling/poll_choice.rb:21)
+DEPRECATION WARNING: ** Notice: include was renamed to embed_in_root. **
+. (called from initialize at /home/hudson/.rvm/gems/ext-ruby-1.9.3-p484/bundler/gems/active_model_serializers-61882e1e4127/lib/active_model/serializer/associations.rb:9)
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+WARNING: trigger group has an explicit name, but nested triggers do not. trigger names will be inferred
+SEVERE: some specs failed on rerun, the build will be marked as failed
+24448: 23:21:32.516623107 INFO: this is the result
+24449: 23:21:32.519939322 Code coverage not enabled
+24450: 23:21:32.522846812 Bullet not enabled
+24451: 23:21:32.525887097 Run options: include {:full_description=>/should be cache coherent/}
+24452: 23:21:32.528898108 
+24453: 23:21:32.532089186 Account
+24454: 23:21:32.535120203   all_external_statuses
+24455: 23:21:32.538079075 Setting up sharding for all specs...
+24456: 23:21:32.541282632 Done!
+24457: 23:21:32.544398946     should be cache coherent
+24458: 23:21:32.547355527 
+24459: 23:21:32.550362292 Finished in 22.99 seconds
+24460: 23:21:32.553116171 1 example, 0 failures
+24461: 23:21:32.555764248 Tearing down sharding for all specs
+24462: 23:21:32.558474126 INFO: determining if the spec passed or failed
+24463: 23:21:32.561122463 INFO: examples run = 1 examples failed = 0
+24464: 23:21:32.563784968 INFO: the example passed and is being marked as a success
+24465: 23:21:32.566507311 INFO: spec finished and has updated rerun state
+24466: 23:21:32.569145752 INFO: reruns have completed calculating if build has passed or failed
+24467: 23:21:32.571722160 INFO: total failed specs 3
+24468: 23:21:32.574399847 INFO: total passed specs 11
+24469: 23:21:32.576941761 *****************INFO: RERUN SUMMARY*****************
+24470: 23:21:32.580374270 INFO: outcomes of the specs that were rerun
+24471: 23:21:32.583493165 Outcome FAILED for ./spec/apis/v1/quizzes/quiz_submission_questions_api_spec.rb -e should support answering multiple questions at the same time
+24472: 23:21:32.586509773 
+24473: 23:21:32.589632286  Code coverage not enabled
+24474: 23:21:32.592806493 Bullet not enabled
+24475: 23:21:32.595962385 Run options: include {:full_description=>/should support answering multiple questions at the same time/}
+24476: 23:21:32.598950997 
+24477: 23:21:32.601986326 Quizzes::QuizSubmissionQuestionsController
+24478: 23:21:32.605087485   POST /quiz_submissions/:quiz_submission_id/questions [bulk_answer]
+24479: 23:21:32.608148812 [1m[31mFAILURE: should support answering multiple questions at the same time 
+24480: 23:21:32.611203862  {"errors":[{"message":"An error occurred.","error_code":"internal_server_error"}],"error_report_id":49}[0m
+24481: 23:21:32.614273168 [1m[33mRETRYING: should support answering multiple questions at the same time[0m
+24482: 23:21:32.617292317     should support answering multiple questions at the same time (FAILED - 1)
+24483: 23:21:32.620286859 
+24484: 23:21:32.623238637 Failures:
+24485: 23:21:32.626310670 
+24486: 23:21:32.629377134   1) Quizzes::QuizSubmissionQuestionsController POST /quiz_submissions/:quiz_submission_id/questions [bulk_answer] should support answering multiple questions at the same time
+24487: 23:21:32.632392656      Failure/Error: @quiz = quiz_model(course: @course)
+24488: 23:21:32.635310951      NoMethodError:
+24489: 23:21:32.638312417        undefined method `feature_enabled?' for nil:NilClass
+24490: 23:21:32.641274997      # (eval):73:in `run_callbacks'
+24491: 23:21:32.644312906      # ./spec/factories/quiz_factory.rb:25:in `quiz_model'
+24492: 23:21:32.647285680      # ./spec/apis/v1/quizzes/quiz_submission_questions_api_spec.rb:519:in `block (3 levels) in <top (required)>'
+24493: 23:21:32.650270727 
+24494: 23:21:32.653229234 Finished in 2.35 seconds
+24495: 23:21:32.656229384 1 example, 1 failure
+24496: 23:21:32.659177693 
+24497: 23:21:32.662149261 Failed examples:
+24498: 23:21:32.665123800 
+24499: 23:21:32.668347466 rspec ./spec/apis/v1/quizzes/quiz_submission_questions_api_spec.rb:517 # Quizzes::QuizSubmissionQuestionsController POST /quiz_submissions/:quiz_submission_id/questions [bulk_answer] should support answering multiple questions at the same time
+24500: 23:21:32.671426151 Outcome FAILED for ./spec/apis/v1/quizzes/quiz_submission_questions_api_spec.rb -e should grant access to the teacher
+24501: 23:21:32.674395354 
+24502: 23:21:32.677384230  Code coverage not enabled
+24503: 23:21:32.680409639 Bullet not enabled
+24504: 23:21:32.683437792 Run options: include {:full_description=>/should grant access to the teacher/}
+24505: 23:21:32.686427499 
+24506: 23:21:32.689613145 Quizzes::QuizSubmissionQuestionsController
+24507: 23:21:32.692823189   POST /quiz_submissions/:quiz_submission_id/questions [bulk_answer]
+24508: 23:21:32.695899957     access policy
+24509: 23:21:32.698893237 [1m[31mFAILURE: should grant access to the teacher 
+24510: 23:21:32.701963592  {"errors":[{"message":"An error occurred.","error_code":"internal_server_error"}],"error_report_id":50}[0m
+24511: 23:21:32.705164799 [1m[33mRETRYING: should grant access to the teacher[0m
+24512: 23:21:32.708325216       should grant access to the teacher (FAILED - 1)
+24513: 23:21:32.711316400 
+24514: 23:21:32.714286909 Failures:
+24515: 23:21:32.717348508 
+24516: 23:21:32.720490404   1) Quizzes::QuizSubmissionQuestionsController POST /quiz_submissions/:quiz_submission_id/questions [bulk_answer] access policy should grant access to the teacher
+24517: 23:21:32.723519044      Failure/Error: @quiz = quiz_model(course: @course)
+24518: 23:21:32.726605896      NoMethodError:
+24519: 23:21:32.729696149        undefined method `feature_enabled?' for nil:NilClass
+24520: 23:21:32.732795464      # (eval):73:in `run_callbacks'
+24521: 23:21:32.735846370      # ./spec/factories/quiz_factory.rb:25:in `quiz_model'
+24522: 23:21:32.739040814      # ./spec/apis/v1/quizzes/quiz_submission_questions_api_spec.rb:498:in `block (4 levels) in <top (required)>'
+24523: 23:21:32.742080924 
+24524: 23:21:32.745069606 Finished in 2.09 seconds
+24525: 23:21:32.748060811 1 example, 1 failure
+24526: 23:21:32.751010381 
+24527: 23:21:32.753939140 Failed examples:
+24528: 23:21:32.757030432 
+24529: 23:21:32.760272228 rspec ./spec/apis/v1/quizzes/quiz_submission_questions_api_spec.rb:496 # Quizzes::QuizSubmissionQuestionsController POST /quiz_submissions/:quiz_submission_id/questions [bulk_answer] access policy should grant access to the teacher
+24530: 23:21:32.763299315 Outcome FAILED for ./spec/apis/v1/quizzes/quiz_submission_questions_api_spec.rb -e should grant access to its student
+24531: 23:21:32.766331433 
+24532: 23:21:32.769427661  Code coverage not enabled
+24533: 23:21:32.772493713 Bullet not enabled
+24534: 23:21:32.775653952 Run options: include {:full_description=>/should grant access to its student/}
+24535: 23:21:32.778710021 
+24536: 23:21:32.781724464 Quizzes::QuizSubmissionQuestionsController
+24537: 23:21:32.784766817   GET /quiz_submissions/:quiz_submission_id/questions/:id [show]
+24538: 23:21:32.787765369     should grant access to its student (PENDING: No reason given)
+24539: 23:21:32.790761709   POST /quiz_submissions/:quiz_submission_id/questions [bulk_answer]
+24540: 23:21:32.793715666     access policy
+24541: 23:21:32.796730723 [1m[31mFAILURE: should grant access to its student 
+24542: 23:21:32.799731067  {"errors":[{"message":"An error occurred.","error_code":"internal_server_error"}],"error_report_id":51}[0m
+24543: 23:21:32.802855932 [1m[33mRETRYING: should grant access to its student[0m
+24544: 23:21:32.805863302       should grant access to its student (FAILED - 1)
+24545: 23:21:32.808835425 
+24546: 23:21:32.811774793 Pending:
+24547: 23:21:32.814957680   Quizzes::QuizSubmissionQuestionsController GET /quiz_submissions/:quiz_submission_id/questions/:id [show] should grant access to its student
+24548: 23:21:32.818093310     # No reason given
+24549: 23:21:32.821241184     # ./spec/apis/v1/quizzes/quiz_submission_questions_api_spec.rb:194
+24550: 23:21:32.824289117 
+24551: 23:21:32.827300095 Failures:
+24552: 23:21:32.830466809 
+24553: 23:21:32.833561082   1) Quizzes::QuizSubmissionQuestionsController POST /quiz_submissions/:quiz_submission_id/questions [bulk_answer] access policy should grant access to its student
+24554: 23:21:32.836647343      Failure/Error: @quiz = quiz_model(course: @course)
+24555: 23:21:32.839669671      NoMethodError:
+24556: 23:21:32.842760746        undefined method `feature_enabled?' for nil:NilClass
+24557: 23:21:32.845739769      # (eval):73:in `run_callbacks'
+24558: 23:21:32.848767757      # ./spec/factories/quiz_factory.rb:25:in `quiz_model'
+24559: 23:21:32.851807858      # ./spec/apis/v1/quizzes/quiz_submission_questions_api_spec.rb:508:in `block (4 levels) in <top (required)>'
+24560: 23:21:32.854897165 
+24561: 23:21:32.857937139 Finished in 2.78 seconds
+24562: 23:21:32.861023232 2 examples, 1 failure, 1 pending
+24563: 23:21:32.864057760 
+24564: 23:21:32.867072444 Failed examples:
+24565: 23:21:32.870128091 
+24566: 23:21:32.873324890 rspec ./spec/apis/v1/quizzes/quiz_submission_questions_api_spec.rb:506 # Quizzes::QuizSubmissionQuestionsController POST /quiz_submissions/:quiz_submission_id/questions [bulk_answer] access policy should grant access to its student
+24567: 23:21:32.876425595 Outcome PASSED for ./spec/lib/canvas/redis_spec.rb -e should fail separate servers separately
+24568: 23:21:32.879381246 
+24569: 23:21:32.882434985  
+24570: 23:21:32.885468647 Outcome PASSED for ./vendor/plugins/qti_exporter/spec_canvas/lib/qti/qti_1_2_zip_spec.rb -e should import the included files
+24571: 23:21:32.888521872 
+24572: 23:21:32.891510508  
+24573: 23:21:32.894546833 Outcome PASSED for ./spec/models/media_object_spec.rb -e should not create if the media id doesn't exist in kaltura
+24574: 23:21:32.897531278 
+24575: 23:21:32.900539991  
+24576: 23:21:32.903528289 Outcome PASSED for ./spec/models/media_object_spec.rb -e should create the media object
+24577: 23:21:32.906527283 
+24578: 23:21:32.909560103  
+24579: 23:21:32.912772031 Outcome PASSED for ./spec/models/page_view_spec.rb -e should store and load from cassandra when the birth shard is not the default shard
+24580: 23:21:32.915947881 
+24581: 23:21:32.918961906  
+24582: 23:21:32.922192844 Outcome PASSED for ./spec/models/content_tag_spec.rb -e should not rename attachment if linked tag is renamed
+24583: 23:21:32.925448683 
+24584: 23:21:32.928672617  
+24585: 23:21:32.931813089 Outcome PASSED for ./vendor/plugins/migration_tool/spec_canvas/lib/blackboard/bb9_converter_spec.rb -e should import files correctly
+24586: 23:21:32.934928589 
+24587: 23:21:32.937928096  
+24588: 23:21:32.940999018 Outcome PASSED for ./vendor/plugins/multiple_root_accounts/spec_canvas/lib/host_url_with_account_domains_spec.rb -e should invalidate all the caches when an account domain changes
+24589: 23:21:32.944056784 
+24590: 23:21:32.947022695  
+24591: 23:21:32.950197993 Outcome PASSED for ./vendor/plugins/multiple_root_accounts/spec_canvas/lib/load_account_with_domain_spec.rb -e should redirect to a matching account resulting from a shard split
+24592: 23:21:32.953201791 
+24593: 23:21:32.956274349  
+24594: 23:21:32.959382020 Outcome PASSED for ./vendor/plugins/multiple_root_accounts/spec_canvas/lib/load_account_with_domain_spec.rb -e should not redirect for a cross-shard files request semi-matching an account resulting from a shard split
+24595: 23:21:32.962418656 
+24596: 23:21:32.965471877  
+24597: 23:21:32.968747483 Outcome PASSED for ./vendor/plugins/multiple_root_accounts/spec_canvas/models/account_spec.rb -e should be cache coherent
+24598: 23:21:32.971797581 
+24599: 23:21:32.974847472  
+
+
+---------------------------------------------
+Mon Jun 23 23:21:32 UTC 2014 # Writing build status file /tmp/jenkins-canvas-plugins-core-rails3-2625.status...
+
+[FIREWORK] sending batches to: http://firework.instructure.com
+[FIREWORK] posting 4227 results : 202 Accepted
+[FIREWORK] posting 3977 results : 202 Accepted
+[FIREWORK] posting 3603 results : 202 Accepted
+[FIREWORK] posting 1385 results (success: false) : 202 Accepted
+
+
+---------------------------------------------
+Mon Jun 23 23:21:35 UTC 2014 # Dropping databases...
+
+mkdir: cannot create directory `/home/hudson/sassc_assets': File exists
+
+
+---------------------------------------------
+Mon Jun 23 23:21:40 UTC 2014 # Running git gc
+
+
+
+---------------------------------------------
+Mon Jun 23 23:21:47 UTC 2014 # Exiting with status 1.
+
+Process leaked file descriptors. See http://wiki.jenkins-ci.org/display/JENKINS/Spawning+processes+from+build for more information
+Build step 'Execute shell' marked build as failure
+Performing Post build task...
+Match found for :git : True
+Logical operation result is TRUE
+Running script  : #!/bin/bash
+set -e
+/tmp/hudson_notify.sh
+set +e
+exit 0
+[canvas-plugins-core-rails3] $ /bin/bash /tmp/hudson8293915414203444673.sh
+Sending failure message.
+checking if build was manually ignored
+$last_commit_info
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   610    0     0  100   610      0   1460 --:--:-- --:--:-- --:--:--  1865
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   284  100     2  100   282     16   2326 --:--:-- --:--:-- --:--:--  2563
+100   284  100     2  100   282     16   2324 --:--:-- --:--:-- --:--:--  2563
+okPOST BUILD TASK : SUCCESS
+END OF POST BUILD TASK : 0
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at BUILD level /mnt/hudson/workspace/canvas-plugins-core-rails3/rspec_fail_log to /usr/share/tomcat7/.jenkins/jobs/canvas-plugins-core-rails3/builds/2014-06-23_16-52-38/htmlreports/RSpec_Fail_Log
+Finished: FAILURE

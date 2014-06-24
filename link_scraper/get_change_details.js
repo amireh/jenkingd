@@ -30,31 +30,5 @@ module.exports = function getChangeDetails(patchId, xsrfKey) {
   xhr.setRequestHeader('Accept', 'application/json,application/json,application/jsonrequest');
   xhr.send(JSON.stringify(data));
 
-  // $.ajax({
-  //   type: 'POST',
-  //   url: '/gerrit_ui/rpc/ChangeDetailService',
-  //   headers: {
-  //     'Accept': 'application/json,application/json,application/jsonrequest',
-  //     'Content-Type': 'application/json; charset=UTF-8'
-  //   },
-  //   data: data,
-  //   success: function(resp, a, xhr) {
-  //     window.callPhantom({
-  //       success: true,
-  //       patchId: patchId,
-  //       status: xhr.status,
-  //       body: resp
-  //     });
-  //   },
-  //   error: function(error, a, b) {
-  //     window.callPhantom({
-  //       patchId: patchId,
-  //       failed: true,
-  //       status: error.status,
-  //       body: error.responseText
-  //     });
-  //   }
-  // });
-
   return true;
 };
