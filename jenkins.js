@@ -2,6 +2,8 @@ var RSVP = require('rsvp');
 var webpage = require('webpage');
 var K = require('./constants');
 var retrigger = require('./jenkins/retrigger');
+var getJob = require('./jenkins/get_job');
+var getJobLog = require('./jenkins/get_job_log');
 
 var page;
 var connected = false;
@@ -19,8 +21,6 @@ var reset = function() {
 };
 
 var prepareSession = function(resolve, reject, xhr) {
-  console.log('Resource:', xhr.status, xhr.url);
-
   if (xhr.url === K.JENKINS_URL) {
     if (xhr.status === 200) {
       console.log('Connected to Jenkins.');
@@ -88,6 +88,14 @@ module.exports = {
 
   isConnected: function() {
     return !!connected;
+  },
+
+  getJob: function(jobLink) {
+    return getJob(jobLink);
+  },
+
+  getJobLog: function(jobLink) {
+    return getJobLog(jobLink);
   },
 
   retrigger: function(jobLink) {

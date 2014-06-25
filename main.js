@@ -84,7 +84,7 @@ var routes = [
     handler: function(request, respond, onError) {
       var jobLink = parseJobLink(request, respond);
 
-      gerrit.getJobStatus(jobLink).then(function(jobStatus) {
+      jenkins.getJob(jobLink).then(function(jobStatus) {
         respond(200, jobStatus);
       }, onError);
     }
@@ -95,7 +95,7 @@ var routes = [
     handler: function(request, respond, onError) {
       var jobLink = parseJobLink(request, respond);
 
-      gerrit.getJobLog(jobLink).then(function(jobLog) {
+      jenkins.getJobLog(jobLink).then(function(jobLog) {
         respond(200, jobLog);
       }, onError);
     }
@@ -107,7 +107,7 @@ var routes = [
       var jobLink = parseJobLink(request, respond);
 
       jenkins.retrigger(jobLink).then(function() {
-        gerrit.getJobStatus(jobLink).then(function(jobStatus) {
+        jenkins.getJob(jobLink).then(function(jobStatus) {
           respond(200, jobStatus);
         });
       }, onError);

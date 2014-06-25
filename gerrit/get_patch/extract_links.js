@@ -1,4 +1,6 @@
-var JENKINS_ID = 1000008;
+var K = require('../../constants');
+
+var JENKINS_ID = K.JENKINS_ID;
 var BASE_JOB_URL = 'http://jenkins.instructure.com/job';
 var LINK_EXTRACTOR = /Build Started (http:\/\/jenkins[^\s]+)\s/;
 var ID_EXTRACTOR = /job\/([^\/]+)\/([^\/]+)\/$/; // extract project and job ids

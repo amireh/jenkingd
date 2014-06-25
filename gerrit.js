@@ -1,11 +1,8 @@
 var RSVP = require('rsvp');
 var webpage = require('webpage');
 var K = require('./constants');
-var sniffXSRFToken = require('./link_scraper/sniff_xsrf_token');
 var getPatches = require('./gerrit/get_patches');
 var getPatch = require('./gerrit/get_patch');
-var getJobStatus = require('./gerrit/get_job_status');
-var getJobLog = require('./gerrit/get_job_log');
 
 var page, xsrfKey;
 var connected = false;
@@ -20,6 +17,29 @@ var reset = function() {
   }
 
   connected = false;
+};
+
+var sniffXSRFToken = function(xhr) {
+  console.log('Sniffing XSRF token...');
+
+  var authHeader = xhr.headers.filter(function(header) {
+    return header.name === 'X-Gerrit-Auth';
+  })[0];
+
+  if (authHeader) {
+    return authHeader.value;
+  }
+
+  return page.evaluate(function() {
+    if ('gerrit_hostpagedata' in window) {
+      try {
+        return window.gerrit_hostpagedata.xGerritAuth;
+      }
+      catch (e) {
+        return undefined;
+      }
+    }
+  });
 };
 
 /**
@@ -53,7 +73,7 @@ var prepareSession = function(resolve, reject, xhr) {
   }
   // Keep sniffing until we get the XSRF token:
   else if (!xsrfKey) {
-    xsrfKey = sniffXSRFToken(xhr, page);
+    xsrfKey = sniffXSRFToken(xhr);
   }
 
   if (connected && xsrfKey) {
@@ -140,13 +160,5 @@ module.exports = {
 
   getPatch: function(patchId) {
     return getPatch(patchId, page, xsrfKey);
-  },
-
-  getJobStatus: function(jobLink) {
-    return getJobStatus(jobLink);
-  },
-
-  getJobLog: function(jobLink) {
-    return getJobLog(jobLink);
   }
 };
