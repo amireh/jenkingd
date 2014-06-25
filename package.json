@@ -1,8 +1,26 @@
 {
   "name": "jenkingd",
-  "default": "main.js",
-  "dependencies": {},
-  "devDependencies": {
+  "description": "Gerrit/Jenkins scraper.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/amireh/jenkingd",
+  "author": {
+    "name": "Ahmad Amireh",
+    "email": "ahmad@algollabs.com",
+    "url": "http://www.algollabs.com"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amireh/jenkingd"
+  },
+  "bugs": {
+    "url": "https://github.com/amireh/jenkingd/issues"
+  },
+  "scripts": {
+    "start": "phantomjs ./main.js"
+  },
+  "dependencies": {
+    "phantomjs": "^1.9.7-10",
     "rsvp": "^3.0.9"
   }
 }
