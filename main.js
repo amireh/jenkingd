@@ -3,9 +3,9 @@
 require('./config');
 require('./ext/phantomjs'); // Function.bind polyfill
 
-var gerrit = require('./gerrit');
-var jenkins = require('./jenkins');
-var K = require('./constants');
+var gerrit = require('./lib/gerrit');
+var jenkins = require('./lib/jenkins');
+var K = require('./lib/constants');
 var authToken;
 
 var parseJobLink = function(request, respond) {
