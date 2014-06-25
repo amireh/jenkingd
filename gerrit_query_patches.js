@@ -1,17 +1,12 @@
 #!/usr/bin/env phantomjs
 
 var page = require('webpage').create();
-var extractLinks = require('./extract_links');
 var sniffXSRFToken = require('./link_scraper/sniff_xsrf_token');
-var getChangeDetails = require('./link_scraper/get_change_details');
+var getPatches = require('./link_scraper/get_patches');
 
 // todo: argify
 var TIMEOUT = 20000;
-var PATCHES = [ 36559, 36070 ];
-
 var output = [];
-var requestCount = PATCHES.length;
-var errorCount = 0;
 
 page.settings.loadImages = false;
 page.customHeaders = {
@@ -22,6 +17,8 @@ page.customHeaders = {
 page.onResourceReceived = function(response) {
   var xsrfKey = sniffXSRFToken(response);
 
+  console.log('Resource:', response.status, response.url);
+
   if (xsrfKey) {
     console.log('XSRF token:', xsrfKey);
 
@@ -31,32 +28,27 @@ page.onResourceReceived = function(response) {
   }
 };
 
-// Extract the links from the ChangeDetailService output:
 page.onCallback = function(resp) {
   console.log('XHR status:', resp.status, resp.success);
 
   if (resp.success) {
-    output.push({
-      patch: resp.patchId,
-      links: extractLinks(resp.body)
-    });
+    output = resp.patches;
+    // console.log(JSON.stringify(output, null, 2));
+    console.log(output.map(function(patch) {
+      return patch._number;
+    }));
+    phantom.exit(0);
   }
   else {
     console.log('XHR failure:', JSON.stringify(resp));
-    errorCount += 1;
+    phantom.exit(1);
   }
 
-  if (--requestCount === 0) {
-    console.log(JSON.stringify(output, null, 2));
-    phantom.exit(errorCount === 0 ? 0 : 1);
-  }
 };
 
 function dispatch(xsrfKey) {
-  PATCHES.forEach(function(patchId) {
-    console.log('Requesting details for patch:', patchId);
-    page.evaluate(getChangeDetails, patchId, xsrfKey);
-  });
+  console.log('Requesting patch list.');
+  page.evaluate(getPatches, xsrfKey);
 }
 
 page.open('https://gerrit.instructure.com/', function(status) {

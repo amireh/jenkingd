@@ -1,0 +1,8 @@
+{
+  "name": "jenkingd",
+  "default": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "rsvp": "^3.0.9"
+  }
+}
