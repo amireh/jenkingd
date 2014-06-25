@@ -84,6 +84,21 @@ var routes = [
     }
   },
 
+  { // retrieve build job log
+    url: /^\/job\/log\?link=(.*)$/,
+    handler: function(req, respond, onError) {
+      var jobLink = req.url.match(this.url)[1];
+
+      if (!jobLink) {
+        return respond(400, { message: 'missing required link parameter' });
+      }
+
+      gerrit.getJobLog(jobLink).then(function(jobLog) {
+        respond(200, jobLog);
+      }, onError);
+    }
+  },
+
   { // 404
     url: /.*/,
     handler: function(req, respond) {
