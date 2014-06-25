@@ -2,12 +2,12 @@ require('./ext/phantomjs'); // Function.bind polyfill
 
 var RSVP = require('rsvp');
 var webpage = require('webpage');
+var K = require('./constants');
 var sniffXSRFToken = require('./link_scraper/sniff_xsrf_token');
+var getActivePatches = require('./gerrit/get_active_patches');
 
 var page, xsrfKey;
 var connected = false;
-
-var GERRIT_URL = 'https://gerrit.instructure.com/';
 
 /**
  * @internal Reset state.
@@ -36,7 +36,7 @@ var reset = function() {
 var prepareSession = function(resolve, reject, xhr) {
   console.log('Resource:', xhr.status, xhr.url);
 
-  if (xhr.url === GERRIT_URL) {
+  if (xhr.url === K.GERRIT_URL) {
     if (xhr.status === 200) {
       connected = true;
     }
@@ -45,7 +45,7 @@ var prepareSession = function(resolve, reject, xhr) {
 
       reject({
         status: xhr.status,
-        message: xhr.statusText
+        code: xhr.statusText
       });
     }
   }
@@ -73,9 +73,10 @@ var connect = function(authToken) {
 
   return new RSVP.Promise(function(resolve, reject) {
     page.onResourceReceived = prepareSession.bind(null, resolve, reject);
-    page.open(GERRIT_URL);
+    page.open(K.GERRIT_URL);
   }).then(function() {
     page.onResourceReceived = null; // stop sniffing
+    return true;
   });
 };
 
@@ -86,9 +87,12 @@ var disconnect = function() {
       resolve();
     }
     else {
-      reject('already disconnected');
+      reject({
+        status: 400,
+        code: K.ERROR_DISCONNECTED
+      });
     }
-  })
+  });
 };
 
 module.exports = {
@@ -113,5 +117,19 @@ module.exports = {
 
   isConnected: function() {
     return !!connected;
+  },
+
+  getActivePatches: function() {
+
+    if (!connected) {
+      console.log('Gerrit: [error] disconnected');
+
+      return RSVP.reject({
+        status: 400,
+        code: K.ERROR_DISCONNECTED
+      });
+    }
+
+    return getActivePatches(page, xsrfKey);
   }
 };

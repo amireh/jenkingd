@@ -1,6 +1,9 @@
 #!/usr/bin/env phantomjs
 
+require('./config');
+
 var gerrit = require('./gerrit');
+var K = require('./constants');
 var authToken;
 
 var routes = [
@@ -15,50 +18,49 @@ var routes = [
      *  2. JSON payload with "username" and "password" fields
      *
      */
-    handler: function(request, respond) {
+    handler: function(request, respond, onError) {
       var payload;
 
-      if (request.headers['Authorization']) {
-        authToken = request.headers['Authorization'];
+      if (request.headers.Authorization) {
+        authToken = request.headers.Authorization;
       }
       else if (request.postRaw.length) {
         payload = JSON.parse(request.postRaw);
         authToken = 'Basic ' + btoa(payload.username + ":" + payload.password);
       }
       else {
-        return respond(400, {
-          status: 'error',
-          message: 'missing credentials'
-        });
+        return respond(400, { message: K.ERROR_MISSING_CREDENTIALS });
       }
 
       console.log('Authorization token:', authToken);
 
       gerrit.connect(authToken).then(function() {
         respond(200, {});
-      }, function(error) {
-        console.warn('Connecting to gerrit failed!', JSON.stringify(error));
-        respond(error.status, { message: error.message })
-      });
+      }, onError);
     }
   },
 
   { // leave like a gentleman would
     url: '/disconnect',
-    handler: function(req, respond) {
+    handler: function(req, respond, onError) {
+      if (!gerrit.isConnected()) {
+        return respond(400, { message: K.ERROR_DISCONNECTED });
+      }
+
       gerrit.disconnect().then(function() {
         respond(200, {});
-      }, function(error) {
-        respond(400, { message: error });
-      });
+      }, onError);
     }
   },
 
   { // patch listing
     url: '/patches',
-    handler: function(req, respond) {
+    handler: function(req, respond, onError) {
       console.log('Getting patch list.');
-      respond(200, []);
+
+      gerrit.getActivePatches().then(function(patchIds) {
+        respond(200, patchIds);
+      }, onError);
     }
   },
 
@@ -66,7 +68,7 @@ var routes = [
     url: /.*/,
     handler: function(req, respond) {
       console.log('404 - Not found.');
-      respond(404, { status: 'error', message: 'Not Found' });
+      respond(404, { message: 'Not Found' });
     }
   }
 ];
@@ -109,7 +111,10 @@ var service = server.listen(8777, function(request, response) {
   }
 
   try {
-    route.handler(request, respond);
+    route.handler(request, respond, function onGerritError(error) {
+      console.log('Gerrit error:', JSON.stringify(error));
+      respond(error.status, { message: error.code });
+    });
   }
   catch(e) {
     console.error('Handler error:');
