@@ -4,7 +4,7 @@ var RSVP = require('rsvp');
 var webpage = require('webpage');
 var K = require('./constants');
 var sniffXSRFToken = require('./link_scraper/sniff_xsrf_token');
-var getActivePatches = require('./gerrit/get_active_patches');
+var getPatches = require('./gerrit/get_patches');
 var getPatch = require('./gerrit/get_patch');
 var getJobStatus = require('./gerrit/get_job_status');
 var getJobLog = require('./gerrit/get_job_log');
@@ -122,7 +122,7 @@ module.exports = {
     return !!connected;
   },
 
-  getActivePatches: function() {
+  getPatches: function() {
     if (!connected) {
       return RSVP.reject({
         status: 400,
@@ -130,7 +130,13 @@ module.exports = {
       });
     }
 
-    return getActivePatches(page, xsrfKey);
+    return getPatches(page, xsrfKey).then(function(patchIds) {
+      return RSVP.all(
+        patchIds.map(function(patchId) {
+          return getPatch(patchId, page, xsrfKey);
+        })
+      );
+    });
   },
 
   getPatch: function(patchId) {

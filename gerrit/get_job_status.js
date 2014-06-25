@@ -14,8 +14,15 @@ module.exports = function(link) {
           job = JSON.parse(xhr.responseText);
 
           resolve({
+            id: job.number,
+            active: job.building,
+            label: job.fullDisplayName,
             success: job.result === 'SUCCESS',
-            status: job.result
+            status: job.result,
+            duration: job.duration,
+            estimatedDuration: job.estimatedDuration,
+            startedAt: job.timestamp,
+            url: job.url
           });
         }
         else {

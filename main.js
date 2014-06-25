@@ -9,7 +9,6 @@ var authToken;
 var routes = [
   { // sneak into gerrit and get ready for hackery
     url: '/connect',
-    method: 'POST',
 
     /**
      * Accepts credentials in two forms:
@@ -19,16 +18,12 @@ var routes = [
      *
      */
     handler: function(request, respond, onError) {
-      var payload;
+      var authToken = request.headers.authorization ||
+        request.headers.Authorization;
 
-      if (request.headers.Authorization) {
-        authToken = request.headers.Authorization;
-      }
-      else if (request.postRaw.length) {
-        payload = JSON.parse(request.postRaw);
-        authToken = 'Basic ' + btoa(payload.username + ":" + payload.password);
-      }
-      else {
+      console.log(JSON.stringify(request));
+
+      if (!authToken) {
         return respond(400, { message: K.ERROR_MISSING_CREDENTIALS });
       }
 
@@ -52,7 +47,7 @@ var routes = [
   { // patch listing
     url: '/patches',
     handler: function(req, respond, onError) {
-      gerrit.getActivePatches().then(function(patchIds) {
+      gerrit.getPatches().then(function(patchIds) {
         respond(200, patchIds);
       }, onError);
     }
@@ -78,6 +73,8 @@ var routes = [
         return respond(400, { message: 'missing required link parameter' });
       }
 
+      jobLink = decodeURIComponent(jobLink);
+
       gerrit.getJobStatus(jobLink).then(function(jobStatus) {
         respond(200, jobStatus);
       }, onError);
@@ -93,9 +90,18 @@ var routes = [
         return respond(400, { message: 'missing required link parameter' });
       }
 
+      jobLink = decodeURIComponent(jobLink);
+
       gerrit.getJobLog(jobLink).then(function(jobLog) {
         respond(200, jobLog);
       }, onError);
+    }
+  },
+
+  {
+    url: '/status',
+    handler: function(req, respond) {
+      respond(200, { connected: gerrit.isConnected() });
     }
   },
 
@@ -114,17 +120,22 @@ var service = server.listen(8777, function(request, response) {
   var url = request.url;
   var timeout;
   var respond = function(code, data) {
+    var buffer = JSON.stringify(data);
+
     clearTimeout(timeout);
     timeout = null;
 
     response.statusCode = code;
-    response.write(JSON.stringify(data));
-    response.close();
+    response.setHeader('Content-Type', 'application/json; charset=UTF-8')
+    response.write(buffer);
+    response.closeGracefully();
   };
+
+  console.log('Request: [', request.method, '] =>', request.url);
 
   timeout = setTimeout(function() {
     respond(500, { status: 'timeout' });
-  }, 10000);
+  }, K.REQUEST_TIMEOUT);
 
   for (i = 0; i < routes.length; ++i) {
     route = routes[i];

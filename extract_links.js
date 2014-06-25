@@ -29,8 +29,8 @@ module.exports = function extractLinks(resp) {
 
   console.log('Found', messages.length, 'messages by Jenkins.');
 
-  links = messages.map(function(message) {
-    var message = message.message;
+  links = messages.map(function(messageEntity) {
+    var message = messageEntity.message;
     var capture = message.match(LINK_EXTRACTOR);
 
     if (capture) {
@@ -55,7 +55,7 @@ module.exports = function extractLinks(resp) {
   }, {});
 
   links = Object.keys(links).map(function(projectId) {
-    return links[projectId];
+    return encodeURIComponent(links[projectId]);
   });
 
   return links;
