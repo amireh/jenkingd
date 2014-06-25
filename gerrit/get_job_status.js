@@ -14,7 +14,7 @@ module.exports = function(link) {
           job = JSON.parse(xhr.responseText);
 
           resolve({
-            id: job.number,
+            id: ''+job.number,
             active: job.building,
             label: job.fullDisplayName,
             success: job.result === 'SUCCESS',
