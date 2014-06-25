@@ -69,6 +69,21 @@ var routes = [
     }
   },
 
+  { // retrieve build job status
+    url: /^\/job\?link=(.*)$/,
+    handler: function(req, respond, onError) {
+      var jobLink = req.url.match(this.url)[1];
+
+      if (!jobLink) {
+        return respond(400, { message: 'missing required link parameter' });
+      }
+
+      gerrit.getJobStatus(jobLink).then(function(jobStatus) {
+        respond(200, jobStatus);
+      }, onError);
+    }
+  },
+
   { // 404
     url: /.*/,
     handler: function(req, respond) {

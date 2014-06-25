@@ -6,6 +6,7 @@ var K = require('./constants');
 var sniffXSRFToken = require('./link_scraper/sniff_xsrf_token');
 var getActivePatches = require('./gerrit/get_active_patches');
 var getPatch = require('./gerrit/get_patch');
+var getJobStatus = require('./gerrit/get_job_status');
 
 var page, xsrfKey;
 var connected = false;
@@ -133,5 +134,9 @@ module.exports = {
 
   getPatch: function(patchId) {
     return getPatch(patchId, page, xsrfKey);
+  },
+
+  getJobStatus: function(jobLink) {
+    return getJobStatus(jobLink);
   }
 };
