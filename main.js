@@ -1,21 +1,32 @@
 #!/usr/bin/env phantomjs
 
 require('./config');
+require('./ext/phantomjs'); // Function.bind polyfill
 
 var gerrit = require('./gerrit');
+var jenkins = require('./jenkins');
 var K = require('./constants');
 var authToken;
 
+var parseJobLink = function(request, respond) {
+  var jobLink = (request.url.match(/\?link=(.+)$/) || [])[1];
+
+  if (!jobLink) {
+    return respond(400, {
+      message: K.ERROR_MISSING_JOB_LINK
+    });
+  }
+
+  return decodeURIComponent(jobLink);
+};
+
 var routes = [
-  { // sneak into gerrit and get ready for hackery
+  { // sneak into Gerrit and Jenkins and get ready for hackery
     url: '/connect',
 
     /**
-     * Accepts credentials in two forms:
-     *
-     *  1. HTTP Basic Authorization (e.g, "Authorization" header must be set)
-     *  2. JSON payload with "username" and "password" fields
-     *
+     * Credentials must be provided in the HTTP Basic Authentication form, ie,
+     * in the "Authorization" header.
      */
     handler: function(request, respond, onError) {
       var authToken = request.headers.authorization ||
@@ -30,23 +41,27 @@ var routes = [
       console.log('Authorization token:', authToken);
 
       gerrit.connect(authToken).then(function() {
-        respond(200, {});
+        return jenkins.connect().then(function() {
+          respond(200, {});
+        });
       }, onError);
     }
   },
 
   { // leave like a gentleman would
     url: '/disconnect',
-    handler: function(req, respond, onError) {
+    handler: function(request, respond, onError) {
       gerrit.disconnect().then(function() {
-        respond(200, {});
+        return jenkins.disconnect().then(function() {
+          respond(200, {});
+        });
       }, onError);
     }
   },
 
   { // patch listing
     url: '/patches',
-    handler: function(req, respond, onError) {
+    handler: function(request, respond, onError) {
       gerrit.getPatches().then(function(patchIds) {
         respond(200, patchIds);
       }, onError);
@@ -55,8 +70,8 @@ var routes = [
 
   { // patch info
     url: /^\/patches\/(\d+)/,
-    handler: function(req, respond, onError) {
-      var patchId = req.url.match(this.url)[1];
+    handler: function(request, respond, onError) {
+      var patchId = request.url.match(this.url)[1];
 
       gerrit.getPatch(patchId).then(function(patch) {
         respond(200, patch);
@@ -66,14 +81,8 @@ var routes = [
 
   { // retrieve build job status
     url: /^\/job\?link=(.*)$/,
-    handler: function(req, respond, onError) {
-      var jobLink = req.url.match(this.url)[1];
-
-      if (!jobLink) {
-        return respond(400, { message: 'missing required link parameter' });
-      }
-
-      jobLink = decodeURIComponent(jobLink);
+    handler: function(request, respond, onError) {
+      var jobLink = parseJobLink(request, respond);
 
       gerrit.getJobStatus(jobLink).then(function(jobStatus) {
         respond(200, jobStatus);
@@ -83,14 +92,8 @@ var routes = [
 
   { // retrieve build job log
     url: /^\/job\/log\?link=(.*)$/,
-    handler: function(req, respond, onError) {
-      var jobLink = req.url.match(this.url)[1];
-
-      if (!jobLink) {
-        return respond(400, { message: 'missing required link parameter' });
-      }
-
-      jobLink = decodeURIComponent(jobLink);
+    handler: function(request, respond, onError) {
+      var jobLink = parseJobLink(request, respond);
 
       gerrit.getJobLog(jobLink).then(function(jobLog) {
         respond(200, jobLog);
@@ -98,18 +101,32 @@ var routes = [
     }
   },
 
+  { // retrigger the job
+    url: /^\/job\/retrigger\?link=(.*)$/,
+    handler: function(request, respond, onError) {
+      var jobLink = parseJobLink(request, respond);
+
+      jenkins.retrigger(jobLink).then(function() {
+        gerrit.getJobStatus(jobLink).then(function(jobStatus) {
+          respond(200, jobStatus);
+        });
+      }, onError);
+    }
+  },
+
   {
     url: '/status',
-    handler: function(req, respond) {
-      respond(200, { connected: gerrit.isConnected() });
+    handler: function(request, respond) {
+      respond(200, {
+        connected: gerrit.isConnected() && jenkins.isConnected()
+      });
     }
   },
 
   { // 404
     url: /.*/,
-    handler: function(req, respond) {
-      console.log('404 - Not found.');
-      respond(404, { message: 'Not Found' });
+    handler: function(request, respond) {
+      respond(404, { message: K.ERROR_NOT_FOUND });
     }
   }
 ];
@@ -120,7 +137,7 @@ var service = server.listen(8777, function(request, response) {
   var url = request.url;
   var timeout;
   var respond = function(code, data) {
-    var buffer = JSON.stringify(data);
+    var buffer = JSON.stringify(data || '{}');
 
     clearTimeout(timeout);
     timeout = null;
@@ -155,8 +172,8 @@ var service = server.listen(8777, function(request, response) {
   }
 
   try {
-    route.handler.call(route, request, respond, function onGerritError(error) {
-      console.log('Gerrit error:', JSON.stringify(error));
+    route.handler.call(route, request, respond, function onServiceError(error) {
+      console.log('Gerrit/Jenkins error:', JSON.stringify(error));
       respond(error.status, {
         code: error.code,
         message: error.message
@@ -167,7 +184,7 @@ var service = server.listen(8777, function(request, response) {
     console.error('Handler error:');
     console.error(e.stack);
 
-    respond(500, { status: 'error' });
+    respond(500, { message: 'internal jenkingd error' });
   }
 });
 

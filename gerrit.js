@@ -1,5 +1,3 @@
-require('./ext/phantomjs'); // Function.bind polyfill
-
 var RSVP = require('rsvp');
 var webpage = require('webpage');
 var K = require('./constants');
@@ -41,6 +39,7 @@ var prepareSession = function(resolve, reject, xhr) {
 
   if (xhr.url === K.GERRIT_URL) {
     if (xhr.status === 200) {
+      console.log('Connected to Gerrit, now sniffing XSRF token...');
       connected = true;
     }
     else {
