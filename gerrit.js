@@ -5,6 +5,7 @@ var webpage = require('webpage');
 var K = require('./constants');
 var sniffXSRFToken = require('./link_scraper/sniff_xsrf_token');
 var getActivePatches = require('./gerrit/get_active_patches');
+var getPatch = require('./gerrit/get_patch');
 
 var page, xsrfKey;
 var connected = false;
@@ -120,10 +121,7 @@ module.exports = {
   },
 
   getActivePatches: function() {
-
     if (!connected) {
-      console.log('Gerrit: [error] disconnected');
-
       return RSVP.reject({
         status: 400,
         code: K.ERROR_DISCONNECTED
@@ -131,5 +129,9 @@ module.exports = {
     }
 
     return getActivePatches(page, xsrfKey);
+  },
+
+  getPatch: function(patchId) {
+    return getPatch(patchId, page, xsrfKey);
   }
 };

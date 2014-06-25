@@ -5,7 +5,7 @@ var ID_EXTRACTOR = /job\/([^\/]+)\/([^\/]+)\/$/; // extract project and job ids
 
 module.exports = function extractLinks(resp) {
   var messages, projects, links, latestPS;
-  var data = resp.result;
+  var data = resp;
   var MESSAGE_FILTER = new RegExp('^Patch Set' + latestPS + ':');
 
   latestPS = data.currentPatchSetId.patchSetId;

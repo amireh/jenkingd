@@ -43,10 +43,6 @@ var routes = [
   { // leave like a gentleman would
     url: '/disconnect',
     handler: function(req, respond, onError) {
-      if (!gerrit.isConnected()) {
-        return respond(400, { message: K.ERROR_DISCONNECTED });
-      }
-
       gerrit.disconnect().then(function() {
         respond(200, {});
       }, onError);
@@ -56,10 +52,19 @@ var routes = [
   { // patch listing
     url: '/patches',
     handler: function(req, respond, onError) {
-      console.log('Getting patch list.');
-
       gerrit.getActivePatches().then(function(patchIds) {
         respond(200, patchIds);
+      }, onError);
+    }
+  },
+
+  { // patch info
+    url: /^\/patches\/(\d+)/,
+    handler: function(req, respond, onError) {
+      var patchId = req.url.match(this.url)[1];
+
+      gerrit.getPatch(patchId).then(function(patch) {
+        respond(200, patch);
       }, onError);
     }
   },
@@ -91,8 +96,6 @@ var service = server.listen(8777, function(request, response) {
     respond(500, { status: 'timeout' });
   }, 10000);
 
-  // console.log(JSON.stringify(request));
-
   for (i = 0; i < routes.length; ++i) {
     route = routes[i];
 
@@ -111,9 +114,12 @@ var service = server.listen(8777, function(request, response) {
   }
 
   try {
-    route.handler(request, respond, function onGerritError(error) {
+    route.handler.call(route, request, respond, function onGerritError(error) {
       console.log('Gerrit error:', JSON.stringify(error));
-      respond(error.status, { message: error.code });
+      respond(error.status, {
+        code: error.code,
+        message: error.message
+      });
     });
   }
   catch(e) {
