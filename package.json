@@ -1,8 +1,11 @@
 {
   "name": "jenkingd",
-  "description": "Gerrit/Jenkins scraper.",
-  "version": "1.0.0",
+  "description": "Gerrit/Jenkins scraper daemon.",
+  "version": "1.0.1",
   "homepage": "https://github.com/amireh/jenkingd",
+  "bin": {
+    "jenkingd": "./bin/jenkingd"
+  },
   "author": {
     "name": "Ahmad Amireh",
     "email": "ahmad@instructure.com",
@@ -16,8 +19,9 @@
   "bugs": {
     "url": "https://github.com/amireh/jenkingd/issues"
   },
+  "main": "lib/server.js",
   "scripts": {
-    "start": "phantomjs ./main.js"
+    "start": "./bin/jenkingd"
   },
   "dependencies": {
     "phantomjs": "^1.9.7-10",

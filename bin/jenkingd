@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+var child;
+var phantomjs = require('phantomjs').path;
+var fork = require('child_process').fork;
+var path = require('path');
+var libPath = path.join(__dirname, '..', 'lib');
+var jenkingd = path.join(libPath, 'server.js');
+var gracefulExit = function() {
+  console.log('jenkingd: shutting down...');
+  child.kill();
+  process.exit(0);
+};
+
+process.env.PATH += ':' + path.dirname(phantomjs);
+process.on('SIGINT', gracefulExit).on('SIGTERM', gracefulExit);
+
+child = fork(jenkingd, [], {
+  execPath: phantomjs,
+  cwd: libPath
+});
