@@ -1,7 +1,7 @@
 {
   "name": "jenkingd",
   "description": "Gerrit/Jenkins scraper daemon.",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "homepage": "https://github.com/amireh/jenkingd",
   "bin": {
     "jenkingd": "./bin/jenkingd"
@@ -25,10 +25,10 @@
     "test": "./node_modules/jasmine-node/bin/jasmine-node ./test"
   },
   "dependencies": {
-    "phantomjs": "^1.9.7-10",
+    "phantomjs": "1.9.7-10",
     "rsvp": "3.0.9"
   },
   "devDependencies": {
-    "jasmine-node": "^1.14.3"
+    "jasmine-node": "1.14.3"
   }
 }
